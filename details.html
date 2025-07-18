@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/475566af2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Destination Details</title>
+  </head>
+
+  <body style="font-family: 'Montserrat', sans-serif">
+    <header
+      class="text-gray-600 body-font sticky top-0 z-50 bg-white shadow-md"
+    >
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-xl">Beyond Borders</span>
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+          <a href="destinations.html" class="mr-5 hover:text-gray-900"
+            >Destinations</a
+          >
+          <a href="details.html" class="mr-5 hover:text-gray-900">Details</a>
+          <a class="mr-5 hover:text-gray-900">Bookings</a>
+          <a class="mr-5 hover:text-gray-900">Travel Tips</a>
+          <a class="mr-5 hover:text-gray-900">About</a>
+          <a class="mr-5 hover:text-gray-900">Gallery</a>
+          <a class="mr-5 hover:text-gray-900">Contact</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-[#bb897c] rounded text-base mt-4 md:mt-0"
+        >
+          Book
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div
+      class="h-96 bg-[url('covers/mara.jpg')] bg-cover bg-center flex flex-col items-center justify-center text-center px-4"
+    >
+      <h1
+        class="font-family: 'Montserrat', sans-serif text-white text-5xl md:text-6xl drop-shadow-xl text-bold"
+      >
+        Maasai Mara
+      </h1>
+      <p class="text-white text-xl mt-4 italic font-medium">Kenya</p>
+    </div>
+    <section class="py-8 px-4 max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-semibold">Masai Mara, Kenya</h2>
+      <p class="mt-2 text-gray-600">
+        A world-famous wildlife reserve in Kenya, known for the Great Migration
+        and Big Five game viewing.
+      </p>
+    </section>
+
+    <!----------------------- gallery---------------------------- -->
+    <section class="text-gray-600 body-font">
+      <div class="container pt-0 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/zebra.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/ellies.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/wildbeests.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/masai.jpg"
+              alt="content"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------pricing------------------------------------------------>
+
+    <h3 class="text-center font-bold">Package Options</h3>
+    <div class="flex justify-center gap-4 px-4 pt-4">
+      <a
+        href="bookings.html"
+        class="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-sm hover:bg-white dark:bg-white dark:border-gray-200 dark:hover:bg-[#eca21d]"
+      >
+        <h5
+          class="mb-2 text-lg tracking-tight text-gray-800 dark:text-gray-800"
+        >
+          3-Day Safari
+        </h5>
+        <p class="text-gray-700 font-bold dark:text-gray-900">$1,200</p>
+      </a>
+      <a
+        href="bookings.html"
+        class="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-sm hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-[#eca21d]"
+      >
+        <h5
+          class="mb-2 text-lg tracking-tight text-gray-900 dark:text-gray-800"
+        >
+          5-Day Adventure
+        </h5>
+        <p class="text-gray-700 font-bold dark:text-gray-900">$1,800</p>
+      </a>
+      <a
+        href="bookings.html"
+        class="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-sm hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-[#eca21d]"
+      >
+        <h5
+          class="mb-2 text-lg tracking-tight text-gray-900 dark:text-gray-800"
+        >
+          7-Day Luxury Travel
+        </h5>
+        <p class="text-gray-700 font-bold dark:text-gray-900">$2,500</p>
+      </a>
+    </div>
+
+    <!-- ----------------------itenarary------------------------------------ -->
+    <h3 class="text-center font-bold pt-5 my-6">Itinerary</h3>
+
+    <div class="flex flex-wrap justify-center gap-4 px-4 pt-0">
+      <a
+        href="bookings.html"
+        class="max-w-sm w-full sm:w-auto p-5 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-white dark:border-gray-700"
+      >
+        <ul
+          class="text-xs font-bold tracking-tight text-gray-800 list-disc list-inside"
+        >
+          <li class="mb-1">Day 1: Arrival & Evening Game Drive</li>
+          <li class="mb-1">Day 2: Full-Day Game Drive</li>
+          <li class="mb-1">
+            Day 3: Morning Game Drive & Departure (for 3 days)
+          </li>
+          <li class="mb-1">Day 4: Nature & Culture Day</li>
+          <li class="mb-1">Day 5: Remote Safari & Departure (for 5 days)</li>
+          <li class="mb-1">Day 6: Balloon Safari</li>
+          <li>Day 7: Leisure Safari & Departure</li>
+        </ul>
+      </a>
+    </div>
+
+    <!-- ----------------------------reviews-------------------------------------- -->
+    <h3 class="text-center font-bold pt-5 my-6">Reviews</h3>
+    <section class="text-gray-600 body-font">
+      <div class="container pt-[15px] mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="reviewer.jpg"
+              />
+              <p class="text-xs leading-relaxed">
+                "Unreal wildlife experience. Saw the Big Five in one day!"
+              </p>
+              <br />
+              <p class="text-xs font-bold">Mike M, USA</p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-[#e6a74a] mt-6 mb-4"
+              ></span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="reviewer2.jpg"
+              />
+              <p class="text-xs leading-relaxed">
+                "Breathtaking landscapes, friendly guides and endless
+                adventure."
+              </p>
+              <br />
+              <p class="text-xs font-bold">Lizzie G, Tanzania</p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-[#e6a74a] mt-6 mb-4"
+              ></span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="reviewer 3.jpg"
+              />
+              <p class="text-xs leading-relaxed">
+                "Incredible guide and sights. We saw lions up close at dawn!"
+              </p>
+              <br />
+              <p class="text-xs font-bold">Angie O, Kenya</p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-[#e6a74a] mt-6 mb-4"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center justify-center text">
+    <a
+      href="bookings.html"
+      class="mt-2 inline-block bg-white text-black font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-[#eca21d] transition"
+    >
+      Book Now
+    </a>
+    </div>
+  </body>
+</html>
