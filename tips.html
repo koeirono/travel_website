@@ -1,118 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/475566af2a.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/475566af2a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Travel Tips</title>
-</head>
+  </head>
 
+  <body style="font-family: 'Montserrat', sans-serif">
+    <header
+      class="text-gray-600 body-font sticky top-0 z-50 bg-white shadow-md"
+    >
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-xl">Beyond Borders</span>
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+        >
+          <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+          <a href="destinations.html" class="mr-5 hover:text-gray-900"
+            >Destinations</a
+          >
+          <a href="details.html" class="mr-5 hover:text-gray-900">Details</a>
+          <a href="bookings.html" class="mr-5 hover:text-gray-900">Bookings</a>
+          <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+          <a href="tips.html" class="mr-5 hover:text-gray-900">Travel Tips</a>
+          <a class="mr-5 hover:text-gray-900">Gallery</a>
+          <a class="mr-5 hover:text-gray-900">Contact</a>
+        </nav>
+        <button
+          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-[#bb897c] rounded text-base mt-4 md:mt-0"
+        >
+          Book
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
 
-<body>
     <!-- Card Blog -->
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <!-- Grid -->
-  <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
-    <!-- Card -->
-    <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="#">
-      <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-        <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image">
-        </div>
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <!-- Grid -->
+      <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
+        <!-- Card -->
+        <a
+          class="group block rounded-xl overflow-hidden focus:outline-hidden"
+          href="#"
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+            <div
+              class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
+            >
+              <img
+                class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+                src="/travel tips/light.jpg"
+                alt="Blog Image"
+              />
+            </div>
 
-        <div class="grow">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-            Studio by Preline
-          </h3>
-          <p class="mt-3 text-gray-600 dark:text-neutral-400">
-            Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
-          </p>
-          <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
-            Read more
-            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </p>
+            <div class="grow">
+              <h3
+                class="text-xl font-semibold text-gray-800 group-hover:text-[#c79167]"
+              >
+                Pack Light
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Choose versatile clothing and essentials that work across
+                multiple outfits and weather conditions.
+              </p>
+              <p
+                class="mt-4 inline-flex items-center gap-x-1 text-sm text-gray-800 decoration-2 group-hover:underline group-hover:text-[#c79167] underline font-medium"
+              >
+                Read more
+                <svg
+                  class="shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card -->
+
+        <!-- Card -->
+        <a
+          class="group block rounded-xl overflow-hidden focus:outline-hidden"
+          href="#"
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+            <div
+              class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
+            >
+              <img
+                class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+                src="travel tips/maa.jpg"
+                alt="Blog Image"
+              />
+            </div>
+
+            <div class="grow">
+              <h3
+                class="text-xl font-semibold text-gray-800 group-hover:text-[#c79167]"
+              >
+                Respect Local Culture
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Learn basic customs, phrases, and etiquette to build trust and
+                show appreciation.
+              </p>
+              <p
+                class="mt-4 inline-flex items-center gap-x-1 text-sm text-gray-800 decoration-2 group-hover:underline group-hover:text-[#c79167] underline font-medium"
+              >
+                Read more
+                <svg
+                  class="shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card -->
+
+        <!-- Card -->
+        <a
+          class="group block rounded-xl overflow-hidden focus:outline-hidden"
+          href="#"
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+            <div
+              class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
+            >
+              <img
+                class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+                src="travel tips/water.jpg"
+                alt="Blog Image"
+              />
+            </div>
+
+            <div class="grow">
+              <h3
+                class="text-xl font-semibold text-gray-800 group-hover:text-[#c79167]"
+              >
+                Stay Hydrated & Rested
+              </h3>
+              <p class="mt-3 text-gray-800">
+                Travel can be exhausting — drink water, take breaks, and sleep
+                well to enjoy fully.
+              </p>
+              <p
+                class="mt-4 inline-flex items-center gap-x-1 text-sm text-gray-800 decoration-2 group-hover:underline group-hover:text-[#c79167] underline font-medium"
+              >
+                Read more
+                <svg
+                  class="shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card -->
+
+        <!-- Card -->
+        <a
+          class="group block rounded-xl overflow-hidden focus:outline-hidden"
+          href="#"
+        >
+          <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+            <div
+              class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44"
+            >
+              <img
+                class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+                src="travel tips/insurance.jpg"
+                alt="Blog Image"
+              />
+            </div>
+
+            <div class="grow">
+              <h3
+                class="text-xl font-semibold text-gray-800 group-hover:text-[#c79167]"
+              >
+                Travel Insurance Is a Must
+              </h3>
+              <p class="mt-3 text-gray-800">
+                Don’t skip this — it’s your safety net for medical issues,
+                cancellations, or lost luggage.
+              </p>
+              <p
+                class="mt-4 inline-flex items-center gap-x-1 text-sm text-gray-800 decoration-2 group-hover:underline group-hover:text-[#c79167] underline font-medium"
+              >
+                Read more
+                <svg
+                  class="shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </p>
+            </div>
+          </div>
+        </a>
+        <!-- End Card -->
+      </div>
+      <!-- End Grid -->
+    </div>
+    <!-- End Card Blog -->
+
+    <!------------------------------------------------------ footer--------------------------------------------- -->
+
+    <footer class="bottom-0 text-gray-600 body-font">
+      <div class="container px-5 pt-0 pb-0 mx-auto mb-0">
+        <div class="flex flex-wrap md:text-left text-center order-first">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              Links
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="index.html" class="text-gray-600 hover:text-[#c79167]"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="destinations.html"
+                  class="text-gray-600 hover:text-[#c79167]"
+                  >Destinations</a
+                >
+              </li>
+              <li>
+                <a
+                  href="details.html"
+                  class="text-gray-600 hover:text-[#c79167]"
+                  >Destination Details</a
+                >
+              </li>
+              <li>
+                <a
+                  href="bookings.html"
+                  class="text-gray-600 hover:text-[#c79167]"
+                  >Bookings</a
+                >
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              More Links
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="about.html" class="text-gray-600 hover:text-[#c79167]"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-600 hover:text-[#c79167]"
+                  >Travel Tips</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-600 hover:text-[#c79167]"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-600 hover:text-[#c79167]"
+                  >Contact Us</a
+                >
+              </li>
+            </nav>
+            <p class="text-center pt-0 text-bold">Beyond Borders &copy</p>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              Social Media
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <i class="text-[#c79167] fa-brands fa-facebook"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">Facebook</a>
+              </li>
+              <li>
+                <i class="text-[#c79167] fa-brands fa-square-x-twitter"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">X</a>
+              </li>
+              <li>
+                <i class="text-[#c79167] fa-brands fa-instagram"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">Instagram</a>
+              </li>
+              <li>
+                <i class="text-[#c79167] fa-brands fa-linkedin"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">LinkedIn</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-xs mb-3"
+            >
+              SUBSCRIBE TO OUR NEWSLETTER
+            </h2>
+            <div
+              class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
+            >
+              <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                <label
+                  for="footer-field"
+                  class="leading-7 text-sm text-gray-600"
+                  >E-mail</label
+                >
+                <input
+                  type="email"
+                  id="footer-field"
+                  placeholder="Enter your E-mail"
+                  name="footer-field"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-5 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <button
+                class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-gray-600 border-0 py-2 px-6 focus:outline-none hover:bg-[#c79167] rounded"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </a>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="#">
-      <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-        <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image">
-        </div>
-
-        <div class="grow">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-            Onsite
-          </h3>
-          <p class="mt-3 text-gray-600 dark:text-neutral-400">
-            Optimize your in-person experience with best-in-class capabilities like badge printing and lead retrieval
-          </p>
-          <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
-            Read more
-            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </p>
-        </div>
-      </div>
-    </a>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="#">
-      <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-        <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image">
-        </div>
-
-        <div class="grow">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-            The complete guide to OKRs
-          </h3>
-          <p class="mt-3 text-gray-600 dark:text-neutral-400">
-            How to make objectives and key results work for your company
-          </p>
-          <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
-            Read more
-            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </p>
-        </div>
-      </div>
-    </a>
-    <!-- End Card -->
-
-    <!-- Card -->
-    <a class="group block rounded-xl overflow-hidden focus:outline-hidden" href="#">
-      <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
-        <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80" alt="Blog Image">
-        </div>
-
-        <div class="grow">
-          <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-neutral-300 dark:group-hover:text-white">
-            People program models
-          </h3>
-          <p class="mt-3 text-gray-600 dark:text-neutral-400">
-            Six approaches to bringing your People strategy to life
-          </p>
-          <p class="mt-4 inline-flex items-center gap-x-1 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium dark:text-blue-500">
-            Read more
-            <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </p>
-        </div>
-      </div>
-    </a>
-    <!-- End Card -->
-  </div>
-  <!-- End Grid -->
-</div>
-<!-- End Card Blog -->
-</body>
+    </footer>
+  </body>
 </html>
