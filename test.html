@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/475566af2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="overflow-x-hidden" style="font-family: 'Montserrat', sans-serif">
+    <div class="flex items-center justify-center p-12">
+      <!-- Author: FormBold Team -->
+      <div class="mx-auto w-full max-w-[550px] bg-white">
+        <form>
+          <div class="mb-5">
+            <label
+              for="name"
+              class="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              Full Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+              class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <div class="mb-5">
+            <label
+              for="phone"
+              class="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              Phone Number
+            </label>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              placeholder="Enter your phone number"
+              class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <div class="mb-5">
+            <label
+              for="email"
+              class="mb-3 block text-base font-medium text-[#07074D]"
+            >
+              Email Address
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+            />
+          </div>
+          <div class="-mx-3 flex flex-wrap">
+            <div class="w-full px-3 sm:w-1/2">
+              <div class="mb-5">
+                <label
+                  for="date"
+                  class="mb-3 block text-base font-medium text-[#07074D]"
+                >
+                  Date
+                </label>
+                <input
+                  type="date"
+                  name="date"
+                  id="date"
+                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                />
+              </div>
+            </div>
+            <div class="w-full px-3 sm:w-1/2">
+              <div class="mb-5">
+                <label
+                  for="time"
+                  class="mb-3 block text-base font-medium text-[#07074D]"
+                >
+                  Time
+                </label>
+                <input
+                  type="time"
+                  name="time"
+                  id="time"
+                  class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5 pt-3">
+            <label
+              class="mb-5 block text-base font-semibold text-[#07074D] sm:text-xl"
+            >
+              Address Details
+            </label>
+            <div class="-mx-3 flex flex-wrap">
+                
+
+<fieldset>
+  <legend class="sr-only">Countries</legend>
+
+  <div class="flex items-center mb-4">
+    <input id="country-option-1" type="radio" name="countries" value="USA" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600" checked>
+    <label for="country-option-1" class="block ms-2  text-sm font-medium text-gray-900 dark:text-gray-300">
+      United States
+    </label>
+  </div>
+
+  <div class="flex items-center mb-4">
+    <input id="country-option-2" type="radio" name="countries" value="Germany" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600">
+    <label for="country-option-2" class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+      Germany
+    </label>
+  </div>
+
+  <div class="flex items-center mb-4">
+    <input id="country-option-3" type="radio" name="countries" value="Spain" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+    <label for="country-option-3" class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+      Spain
+    </label>
+  </div>
+
+  <div class="flex items-center mb-4">
+    <input id="country-option-4" type="radio" name="countries" value="United Kingdom" class="w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus-ring-blue-600 dark:bg-gray-700 dark:border-gray-600">
+    <label for="country-option-4" class="block ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+      United Kingdom
+    </label>
+  </div>
+
+  <div class="flex items-center">
+    <input id="option-disabled" type="radio" name="countries" value="China" class="w-4 h-4 border-gray-200 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:bg-gray-700 dark:border-gray-600" disabled>
+    <label for="option-disabled" class="block ms-2 text-sm font-medium text-gray-300 dark:text-gray-700">
+      China (disabled)
+    </label>
+  </div>
+</fieldset>
+
+  
+          </div>
+
+          <div>
+            <button
+              class="hover:shadow-form w-full rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none"
+            >
+              Book Appointment
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
