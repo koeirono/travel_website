@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/475566af2a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Capetown</title>
+</head>
+<body style="font-family: 'Montserrat', sans-serif;">
+      <header class="text-gray-600 body-font sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="ml-3 text-xl">Beyond Borders</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="destinations.html" class="mr-5 hover:text-gray-900">Destinations</a>
+                <a href="about.html" class="mr-5 hover:text-gray-900">About</a>
+                <a href="tips.html" class="mr-5 hover:text-gray-900">Travel Tips</a>
+                <a href="gallery.html" class="mr-5 hover:text-gray-900">Gallery</a>
+                <a href="contact.html" class="mr-5 hover:text-gray-900">Contact</a>
+
+            </nav>
+            <a href="bookings.html"><button
+                    class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-[#c79167] rounded text-base mt-4 md:mt-0">
+                    Book
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+    </header>
+  <div
+      class="overflow-hidden h-96 bg-[url('covers/capetown.jpg')] bg-cover bg-center flex flex-col items-center justify-center text-center px-4"
+    >
+      <h1
+        class="font-family: 'Montserrat', sans-serif text-white text-5xl md:text-6xl drop-shadow-xl text-bold"
+      >
+        Capetown
+      </h1>
+      <p class="text-white text-xl mt-4 italic font-medium">South Africa</p>
+    </div>
+    <section class="py-8 px-4 max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-semibold">Capetown, South Africa</h2>
+      <p class="mt-2 text-gray-600">
+        A stunning coastal city where mountains meet the sea — known for Table
+        Mountain, vibrant culture, and breathtaking ocean views. Adventure and
+        beauty in perfect harmony.
+      </p>
+    </section>
+
+    <!----------------------- gallery---------------------------- -->
+    <section class="text-gray-600 body-font">
+      <div class="container pt-0 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/ct7.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/ct2.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/ct3.jpg"
+              alt="content"
+            />
+          </div>
+          <div class="xl:w-1/4 md:w-1/2 p-4">
+            <img
+              class="h-40 rounded w-full object-cover object-center mb-6"
+              src="covers/ct6.jpg"
+              alt="content"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------pricing------------------------------------------------>
+
+    <h3 class="text-center font-bold">Package Options</h3>
+    <div class="flex justify-center gap-4 px-4 pt-4">
+      <a
+        href="bookings.html"
+        class="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-sm hover:bg-white dark:bg-white dark:border-gray-200 dark:hover:bg-[#4e65a5]"
+      >
+        <h5
+          class="mb-2 text-lg tracking-tight text-gray-800 dark:text-gray-800"
+        >
+          3-Day Explorer
+        </h5>
+        <p class="text-gray-700 font-bold dark:text-gray-900 text-center">
+          $900
+        </p>
+      </a>
+      <a
+        href="bookings.html"
+        class="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-sm hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-[#4e65a5]"
+      >
+        <h5
+          class="mb-2 text-lg tracking-tight text-gray-900 dark:text-gray-800"
+        >
+          5-Day Adventure
+        </h5>
+        <p class="text-gray-700 font-bold dark:text-gray-900 text-center">
+          $1,500
+        </p>
+      </a>
+      <a
+        href="bookings.html"
+        class="block max-w-sm p-5 bg-white border border-gray-200 rounded-full shadow-sm hover:bg-gray-100 dark:bg-white dark:border-gray-200 dark:hover:bg-[#4e65a5]"
+      >
+        <h5
+          class="mb-2 text-lg tracking-tight text-gray-900 dark:text-gray-800"
+        >
+          7-Day Cultural Journey
+        </h5>
+        <p class="text-gray-700 font-bold dark:text-gray-900 text-center">
+          $2,200
+        </p>
+      </a>
+    </div>
+
+    <!-- ----------------------itenarary------------------------------------ -->
+    <h3 class="text-center font-bold pt-5 my-6">Itinerary</h3>
+
+    <div class="flex flex-wrap justify-center gap-4 px-4 pt-0">
+      <a
+        href="bookings.html"
+        class="max-w-sm w-full sm:w-auto p-5 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-white dark:border-gray-700"
+      >
+        <ul
+          class="text-xs font-bold tracking-tight text-gray-800 list-disc list-inside"
+        >
+          <li class="mb-1">Day 1: Arrival & V&A Waterfront</li>
+          <li class="mb-1">Day 2: Table Mountain & Cableway</li>
+          <li class="mb-1">Day 3: Robben Island & Departure (for 3 days)</li>
+          <li class="mb-1">Day 4: Cape Point & Boulders Beach</li>
+          <li class="mb-1">Day 5: Winelands Tour & Departure (for 5 days)</li>
+          <li class="mb-1">Day 6: Township Cultural Experience</li>
+          <li>Day 7: Beach Day & Departure</li>
+        </ul>
+      </a>
+    </div>
+
+    <!-- ----------------------------reviews-------------------------------------- -->
+    <h3 class="text-center font-bold pt-5 my-6">Reviews</h3>
+    <section class="text-gray-600 body-font">
+      <div class="container pt-[15px] mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="reviewers/rev16.jpg"
+              />
+              <p class="text-xs leading-relaxed">
+                "Breathtaking views and rich history!"
+              </p>
+              <br />
+              <p class="text-xs font-bold">Arnold F, USA</p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-[#4e65a5] mt-6 mb-4"
+              ></span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="reviewers/rev17.jpg"
+              />
+              <p class="text-xs leading-relaxed">
+                "Cape Town blew me away — stunning and soulful."
+              </p>
+              <br />
+              <p class="text-xs font-bold">Harun G, Gabon</p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-[#4e65a5] mt-6 mb-4"
+              ></span>
+            </div>
+          </div>
+          <div class="lg:w-1/3 lg:mb-0 p-4">
+            <div class="h-full text-center">
+              <img
+                alt="testimonial"
+                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                src="reviewers/rev18.jpg"
+              />
+              <p class="text-xs leading-relaxed">
+                "Unforgettable food, nature, and culture!"
+              </p>
+              <br />
+              <p class="text-xs font-bold">Macy M, Belgium</p>
+              <span
+                class="inline-block h-1 w-10 rounded bg-[#4e65a5] mt-6 mb-4"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-center justify-center text pb-10">
+      <a
+        href="bookings.html"
+        class="mt-2 inline-block bg-gray-300 text-black font-semibold px-4 py-2 rounded-full shadow-lg hover:bg-[#4e65a5] transition"
+      >
+        Book Now
+      </a>
+    </div>
+        <footer class="bottom-0 text-gray-600 body-font">
+      <div class="container px-5 pt-0 pb-0 mx-auto mb-0">
+        <div class="flex flex-wrap md:text-left text-center order-first">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              Links
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="#" class="text-gray-600 hover:text-[#c79167]">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-gray-600 hover:text-[#c79167]"
+                  >Destinations</a
+                >
+              </li>
+              <li>
+                <a href="" class="text-gray-600 hover:text-[#c79167]"
+                  >Destination Details</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-600 hover:text-[#c79167]"
+                  >Bookings</a
+                >
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              More Links
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="about.html" class="text-gray-600 hover:text-[#c79167]"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="tips.html" class="text-gray-600 hover:text-[#c79167]"
+                  >Travel Tips</a
+                >
+              </li>
+              <li>
+                <a
+                  href="gallery.html"
+                  class="text-gray-600 hover:text-[#c79167]"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="text-gray-600 hover:text-[#c79167]"
+                  >Contact Us</a
+                >
+              </li>
+            </nav>
+            <p class="text-center pt-0 text-bold">Beyond Borders &copy</p>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
+            >
+              Social Media
+            </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <i class="text-[#c79167] fa-brands fa-facebook"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">Facebook</a>
+              </li>
+              <li>
+                <i class="text-[#c79167] fa-brands fa-square-x-twitter"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">X</a>
+              </li>
+              <li>
+                <i class="text-[#c79167] fa-brands fa-instagram"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">Instagram</a>
+              </li>
+              <li>
+                <i class="text-[#c79167] fa-brands fa-linkedin"></i>
+                <a class="text-gray-600 hover:text-[#c79167]">LinkedIn</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-gray-900 tracking-widest text-xs mb-3"
+            >
+              SUBSCRIBE TO OUR NEWSLETTER
+            </h2>
+            <div
+              class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
+            >
+              <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                <label
+                  for="footer-field"
+                  class="leading-7 text-sm text-gray-600"
+                  >E-mail</label
+                >
+                <input
+                  type="email"
+                  id="footer-field"
+                  placeholder="Enter Your E-mail"
+                  name="footer-field"
+                  class="text-xs w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-[#c79167] focus:border-[#c79167] text-base outline-none text-gray-700 py-1 px-4 leading-8 transition-colors duration-200 ease-in-out"
+                />
+              </div>
+              <button
+                class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-gray-300 border-0 py-2 px-6 focus:outline-none hover:bg-[#c79167] rounded"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
